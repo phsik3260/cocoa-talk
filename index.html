@@ -4,8 +4,48 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cocoa-talk</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>CocoaTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>82%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to CocoaTalk</h1>
+      <p class="welcome-header__text">
+        If you have a Cocoa Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form class="signin-form">
+      <input
+        type="text"
+        placeholder="Email or phone number"
+        class="signin-form__input"
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        class="signin-form__input"
+      />
+      <button class="signin-form__btn">Sign In</button>
+      <button class="signin-form__btn">Sign Up</button>
+      <a href="#" class="signin-form__a">Find Cocoa Account or Password</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/aec564fdc0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
