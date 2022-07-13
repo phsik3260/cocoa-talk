@@ -1,0 +1,61 @@
+/* Welcome-header */
+
+.welcome-header {
+  margin: 90px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.welcome-header__text > span {
+  display: block;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* Signin-form */
+
+.signin-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px;
+}
+.signin-form__input {
+  padding: 15px 0;
+  border: none;
+  font-size: 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  transition: border-color 0.1s ease-in-out;
+}
+.signin-form__input::placeholder {
+  color: rgba(0, 0, 0, 0.5);
+}
+.signin-form__input:focus {
+  border-color: var(--yellow-color);
+}
+.signin-form__input:nth-child(2) {
+  margin-bottom: 30px;
+}
+.signin-form__btn {
+  padding: 15px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  background-color: var(--yellow-color);
+  cursor: pointer;
+}
+.signin-form__btn:nth-child(4) {
+  margin-bottom: 20px;
+}
+.signin-form__a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit; /* 부모 element로부터 상속받음.  */
+  opacity: 0.5;
+}
