@@ -6,7 +6,7 @@
   align-items: center;
   background-color: var(--nav-bar-bg-color);
   padding: 15px 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 .friends-names-display-link > div:nth-child(1) {
   width: 24px;
