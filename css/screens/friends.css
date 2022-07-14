@@ -1,0 +1,48 @@
+/* Friends-names-display-link */
+
+.friends-names-display-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--nav-bar-bg-color);
+  padding: 15px 0;
+  margin-bottom: 15px;
+}
+.friends-names-display-link > div:nth-child(1) {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-right: 10px;
+}
+.friends-names-display-link > div:nth-child(3) {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgray;
+  margin-left: 10px;
+}
+
+/* Friends-screen */
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+.friends-screen__channel {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.friends-screen__channel__header {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+}

@@ -1,0 +1,43 @@
+/* Nav-bar */
+
+.nav-bar {
+  background-color: var(--nav-bar-bg-color);
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  position: fixed; /* width 값이 사라짐. */
+  width: 100%;
+  bottom: 0;
+  box-sizing: border-box;
+}
+.nav-bar__ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar__ul__li__a {
+  position: relative;
+}
+.nav-bar__ul__li__a__noti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  right: -14px;
+  top: -20px;
+}
+.nav-bar__ul__li__a__alert {
+  display: block;
+  background-color: tomato;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  right: -7px;
+  top: -17px;
+}

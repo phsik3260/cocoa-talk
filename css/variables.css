@@ -1,3 +1,9 @@
 :root {
+  /* Color */
   --yellow-color: #fae100;
+  --main-black-color: #2e363e;
+  --nav-bar-bg-color: #fafafa;
+
+  /* Space */
+  --horizontal-space: 20px;
 }

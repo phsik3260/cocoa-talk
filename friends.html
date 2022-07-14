@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends - CocoaTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>82%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">Friends</h1>
+      <div class="screen-header__icons">
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+        <a href="#"><i class="fa-solid fa-music fa-xl"></i></a>
+        <a href="#"><i class="fa-solid fa-gear fa-xl"></i></a>
+      </div>
+    </header>
+    <a href="#" class="friends-names-display-link">
+      <div><i class="fa-solid fa-info"></i></div>
+      <span>Friends' Names Display</span>
+      <div><i class="fa-solid fa-angle-right"></i></div>
+    </a>
+
+    <main class="friends-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="imgs/me.JPG"
+            alt="me"
+            class="user-component__column__img user-component__column__img--lg"
+          />
+          <div class="user-component__column__data">
+            <h3 class="user-component__column__data__title">Hyunsik</h3>
+            <!-- <h5 class="user-component__column__data__sub">sub</h5> -->
+          </div>
+        </div>
+        <div class="user-component__column"></div>
+      </div>
+      <div class="friends-screen__channel">
+        <div class="friends-screen__channel__header">
+          <span>Channel</span>
+          <span><i class="fa-solid fa-angle-up"></i></span>
+        </div>
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="imgs/me.JPG"
+              alt="me"
+              class="user-component__column__img user-component__column__img--sm"
+            />
+            <div class="user-component__column__data">
+              <h3
+                class="user-component__column__data__title user-component__column__data__title--sm"
+              >
+                Channel
+              </h3>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span>2</span><span><i class="fa-solid fa-angle-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav-bar">
+      <ul class="nav-bar__ul">
+        <li class="nav-bar__ul__li">
+          <a class="nav-bar__ul__li__a" href="#"
+            ><i class="fa-solid fa-user fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav-bar__ul__li">
+          <a class="nav-bar__ul__li__a" href="#"
+            ><span class="nav-bar__ul__li__a__noti">1</span
+            ><i class="fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav-bar__ul__li">
+          <a class="nav-bar__ul__li__a" href="#"
+            ><i class="fa-solid fa-magnifying-glass fa-xl"></i
+          ></a>
+        </li>
+        <li class="nav-bar__ul__li">
+          <a class="nav-bar__ul__li__a" href="#"
+            ><span class="nav-bar__ul__li__a__alert"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <script
+      src="https://kit.fontawesome.com/aec564fdc0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
