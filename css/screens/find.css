@@ -1,38 +1,3 @@
-/* Find-icons */
-
-.find-icons {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: -10px;
-  padding-bottom: 10px;
-}
-.find-icons__icon {
-  width: 25%;
-  height: 120px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.5;
-}
-.find-icons__icon:hover {
-  opacity: 1;
-}
-.find-icons__icon > div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.find-icons__icon > div > i {
-  margin-bottom: 15px;
-}
-.find-icons__icon > div > div {
-  width: 80%;
-  text-align: center;
-  font-size: 15px;
-  line-height: 18px;
-}
-
 /* Recommended-friends */
 
 .recommended-friends {

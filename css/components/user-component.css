@@ -45,8 +45,15 @@
   opacity: 0.4;
   margin-top: 10px;
 }
+.user-component__column__data__sub > span:last-child {
+  font-weight: 600;
+  color: var(--red-color);
+}
 .user-component__column:last-child {
   color: rgba(0, 0, 0, 0.4);
+}
+.user-component__column:last-child:hover {
+  color: rgba(0, 0, 0, 1);
 }
 .user-component__column:last-child > span:first-child {
   margin-right: 7px;

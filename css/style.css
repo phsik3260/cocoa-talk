@@ -7,11 +7,13 @@
 @import url("components/screen-header.css");
 @import url("components/user-component.css");
 @import url("components/badge.css");
+@import url("components/icons-container.css");
 
 /* Screens */
 @import url("screens/signin.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
+@import url("screens/more.css");
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

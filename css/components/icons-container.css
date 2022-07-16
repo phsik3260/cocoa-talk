@@ -1,0 +1,38 @@
+/* Icons-container */
+
+.icons-container {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.icons-container--margin-top {
+  margin-top: 15px;
+}
+.icons-container__icon {
+  width: 25%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+.icons-container__icon:hover {
+  opacity: 1;
+}
+.icons-container__icon > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.icons-container__icon > div > i {
+  margin-bottom: 15px;
+}
+.icons-container__icon > div > div {
+  text-align: center;
+  font-size: 15px;
+  line-height: 18px;
+}

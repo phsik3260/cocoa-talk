@@ -27,3 +27,11 @@
   right: -7px;
   top: -17px;
 }
+.dot-alert--sm {
+  right: -2px;
+  top: -10px;
+}
+.dot-alert--md {
+  right: -6px;
+  top: -13px;
+}
