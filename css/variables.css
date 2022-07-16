@@ -1,9 +1,13 @@
 :root {
   /* Color */
   --yellow-color: #fae100;
+  --red-color: #f44336;
   --main-black-color: #2e363e;
   --nav-bar-bg-color: #fafafa;
 
   /* Space */
   --horizontal-space: 20px;
+
+  /* Border */
+  --main-border: 1px solid rgba(0, 0, 0, 0.1);
 }

@@ -32,13 +32,10 @@
 
 /* Friends-screen */
 
-.friends-screen {
-  padding: 0 var(--horizontal-space);
-}
 .friends-screen__channel {
   margin-top: 20px;
   padding-top: 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--main-border);
 }
 .friends-screen__channel__header {
   margin-bottom: 25px;
