@@ -18,3 +18,15 @@
 .screen-header__icons > a:last-child {
   position: relative;
 }
+.screen-header__icons > a:last-child > i:hover {
+  animation: gearRotateAnimation 3s linear infinite;
+}
+
+@keyframes gearRotateAnimation {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
