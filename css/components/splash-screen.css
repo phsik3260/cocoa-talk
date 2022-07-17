@@ -1,0 +1,25 @@
+/* Splash-screen */
+
+#splash-screen {
+  background-color: var(--yellow-color);
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: hideSplashScreen 0.1s linear forwards;
+  animation-delay: 2s;
+}
+
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
