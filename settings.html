@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - CocoaTalk</title>
+    <title>Settings - CocoaTalk</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -22,50 +22,52 @@
         <i class="fa-solid fa-bolt fa-sm"></i>
       </div>
     </div>
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
+    <header class="screen-header-alt">
+      <div class="screen-header-alt__column">
+        <a href="#"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+      </div>
+      <div class="screen-header-alt__column">Settings</div>
+      <div class="screen-header-alt__column">
         <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
-        <a href="#"><i class="fa-regular fa-comments fa-xl"></i></a>
-        <a href="#"><i class="fa-solid fa-music fa-xl"></i></a>
-        <a href="settings.html"><i class="fa-solid fa-gear fa-xl"></i></a>
       </div>
     </header>
     <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="imgs/cocoa-talk.jpeg"
-              alt="cocoa-talk"
-              class="user-component__column__img"
-            />
-            <div class="user-component__column__data">
-              <h3
-                class="user-component__column__data__title"
-              >
-                CocoaTalk
-              </h3>
-              <h5 class="user-component__column__data__sub">Please check My CoCoa Account Info</h5>
+      <ul class="settings-list">
+        <li class="settings-list__item">
+          <a href="#">
+            <div>
+              <i class="fa-solid fa-bullhorn fa-xl"></i><span>Notices</span>
             </div>
-          </div>
-          <div class="user-component__column badge-layout">
-            <div class="user-component__column__time">21:22</div>
-            <di class="badge">1</di>
-          </div>
-        </div>
-      </a>
+          </a>
+        </li>
+        <li class="settings-list__item">
+          <a href="#">
+            <div>
+              <i class="fa-solid fa-flask fa-xl"></i><span>Cocoa Lab</span>
+            </div>
+          </a>
+        </li>
+        <li class="settings-list__item">
+          <a href="#">
+            <div>
+              <i class="fa-solid fa-circle-info fa-xl"></i><span>Version</span>
+            </div>
+            <div>Latest Version</div>
+          </a>
+        </li>
+      </ul>
     </main>
     <nav class="nav-bar">
       <ul class="nav-bar__ul">
         <li class="nav-bar__ul__li">
           <a class="nav-bar__ul__li__a" href="friends.html"
-            ><i class="fa-regular fa-user fa-2x"></i></a>
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
         </li>
         <li class="nav-bar__ul__li">
           <a class="nav-bar__ul__li__a" href="chats.html"
             ><span class="badge nav-bar__ul__li__a__noti">1</span
-            ><i class="fa-solid fa-comment fa-2x"></i></i
+            ><i class="fa-regular fa-comment fa-2x"></i
           ></a>
         </li>
         <li class="nav-bar__ul__li">

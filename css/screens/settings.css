@@ -1,0 +1,32 @@
+/* Settings-list */
+
+.settings-list {
+  display: flex;
+  flex-direction: column;
+}
+.settings-list__item {
+  margin-bottom: 10px;
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+.settings-list__item:last-child {
+  border: none;
+}
+.settings-list__item > a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 0.8;
+}
+.settings-list__item > a:hover {
+  opacity: 1;
+}
+.settings-list__item > a > div:nth-child(1) > i {
+  margin-right: 20px;
+}
+.settings-list__item > a > div:nth-child(1) > span {
+  font-size: 18px;
+}
+.settings-list__item > a > div:nth-child(2) {
+  font-size: 16px;
+}

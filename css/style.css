@@ -8,12 +8,15 @@
 @import url("components/user-component.css");
 @import url("components/badge.css");
 @import url("components/icons-container.css");
+@import url("components/screen-header-alt.css");
 
 /* Screens */
 @import url("screens/signin.css");
 @import url("screens/friends.css");
 @import url("screens/find.css");
 @import url("screens/more.css");
+@import url("screens/settings.css");
+@import url("screens/chat.css");
 
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,

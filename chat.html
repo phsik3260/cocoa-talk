@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat - CocoaTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="chat-screen-blue">
+    <div class="status-bar status-bar--blue">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>82%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt fa-sm"></i>
+      </div>
+    </div>
+    <header class="screen-header-alt">
+      <div class="screen-header-alt__column">
+        <a href="chats.html"><i class="fa-solid fa-angle-left fa-xl"></i></a>
+      </div>
+      <div class="screen-header-alt__column">CocoaTalk</div>
+      <div class="screen-header-alt__column">
+        <a href="#"><i class="fa-solid fa-magnifying-glass fa-xl"></i></a>
+        <a href="#"><i class="fa-solid fa-bars fa-xl"></i></a>
+      </div>
+    </header>
+    <main class="main-screen main-screen--chat">
+      <div class="timestamp">Tuesday, June 30, 2020</div>
+      <div class="message-row">
+        <img
+          src="imgs/cocoa-talk.jpeg"
+          alt="cocoa-talk"
+          class="message-row__img"
+        />
+        <div class="message-row__contents">
+          <div class="message-row__contents__author">CocoaTalk</div>
+          <div class="message-row__contents__text">
+            <div>Hi!</div>
+            <div>21:27</div>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__contents">
+          <div class="message-row__contents__text">
+            <div>Hello, Nice to meet you :)</div>
+            <div>21:29</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <form class="reply-form">
+      <div class="reply-form__column">
+        <button><i class="fa-regular fa-square-plus fa-2x"></i></button>
+      </div>
+      <div class="reply-form__column">
+        <input type="text" placeholder="Write a message..." />
+      </div>
+      <div class="reply-form__column">
+        <button><i class="fa-regular fa-face-smile fa-2x"></i></button>
+        <button><i class="fa-solid fa-arrow-up fa-2x"></i></button>
+      </div>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/aec564fdc0.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
